@@ -5,7 +5,7 @@
   <groupId>myalice-websocket</groupId>
   <artifactId>githublearn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>githublearn</name>
   <url>http://maven.apache.org</url>
@@ -22,4 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+  	<module>LearnChild</module>
+  </modules>
 </project>
